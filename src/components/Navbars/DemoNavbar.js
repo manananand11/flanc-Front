@@ -5,10 +5,10 @@
 =========================================================
 
 * Product Page: https://www.creative-tim.com/product/now-ui-dashboard-react
-* Copyright 2023 Flanc (https://www.creative-tim.com)
+* Copyright 2023 Creative Tim (https://www.creative-tim.com)
 * Licensed under MIT (https://github.com/creativetimofficial/now-ui-dashboard-react/blob/main/LICENSE.md)
 
-* Coded by Flanc
+* Coded by Creative Tim
 
 =========================================================
 
@@ -106,15 +106,16 @@ function DemoNavbar(props) {
   return (
     // add or remove classes depending if we are on full-screen-maps page or not
     <Navbar
-      color={
-        location.pathname.indexOf("full-screen-maps") !== -1 ? "white" : color
-      }
+      // color={
+      //   location.pathname.indexOf("full-screen-maps") !== -1 ? "white" : color
+      // }
       expand="lg"
       className={
-        location.pathname.indexOf("full-screen-maps") !== -1
+        (location.pathname.indexOf("full-screen-maps") !== -1
           ? "navbar-absolute fixed-top"
-          : "navbar-absolute fixed-top " +
-            (color === "transparent" ? "navbar-transparent " : "")
+          : "navbar-absolute fixed-top ") +
+          "bg-dark"
+            // (color === "transparent" ? "navbar-transparent " : "")
       }
     >
       <Container fluid>

@@ -1,3 +1,27 @@
+/*!
+
+ =========================================================
+ * Now UI Dashboard React - v1.5.0 based on Now UI Dashboard - v1.3.0
+ =========================================================
+
+ * Product Page: https://www.creative-tim.com/product/now-ui-dashboard-react
+ * Copyright 2021 Creative Tim (http://www.creative-tim.com)
+
+ * Designed by www.invisionapp.com Coded by www.creative-tim.com
+
+ =========================================================
+
+ * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+ */
+/*     brand Colors              */
+/*      light colors         */
+/*!
+Animate.css - http://daneden.me/animate
+Licensed under the MIT license - http://opensource.org/licenses/MIT
+
+Copyright (c) 2015 Daniel Eden
+*/
 .animated {
   -webkit-animation-duration: 1s;
   animation-duration: 1s;
@@ -4660,3 +4684,35 @@ Created using IcoMoon - icomoon.io
 
 #tables .table-responsive {
   margin-bottom: 30px; }
+
+.listing-page {
+  position: relative;
+  padding: 300px;
+  .listing-page div > .content{
+    margin: 200px;
+    box-shadow: 0 1px 15px 1px rgba(39, 39, 39, 0.1);
+  }
+}
+
+.listing-content{
+  margin: 500px 0;
+}
+
+.navbar .navbar1 {
+  color: black;
+}
+
+.dots{
+  width: 300px;
+  margin: 40px auto;
+}
+
+.dot{
+  display: inline-block;
+  border-radius: 50%;
+  width: 50%;
+  background-color: green;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+}
