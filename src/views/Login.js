@@ -11,7 +11,7 @@ const LoginPage = () => {
   const handleLogin = async () => {
     // Here you can implement your login logic, e.g., send a request to your backend API
     // For simplicity, let's just check if the username and password are not empty
-    axios.post('http://alok760.in:3000/auth/login', {
+    axios.post('http://alok760.in:3001/auth/login', {
       username, password,
     }).then((res) =>{
       if(res.data.token){
