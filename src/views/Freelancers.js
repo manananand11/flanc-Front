@@ -98,6 +98,7 @@ function Freelancers(props) {
                             <p><b>About: </b>{freelancer.about}</p>
                             <p>Skills: <b>{freelancer.skills.join(', ')}</b> </p>
                             <p><b>Popularity:</b> {[...Array(freelancer.popularity)].map(()=> <FaStar/>)}</p>
+                            <a className="btn btn-primary" href="https://alok760.in/hit-test-anchors.html">View in AR</a>
                         </CardBody>
                       </Col>
                     </Row>
