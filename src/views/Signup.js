@@ -27,8 +27,8 @@ const SignupPage = () => {
   return (
     <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100vh' }}>
       <div style={{ backgroundColor: '#f9f9f9', padding: '40px', borderRadius: '10px', boxShadow: '0px 0px 10px rgba(0, 0, 0, 0.1)' }}>
-        {signedUp ? (
-          <h1 style={{ textAlign: 'center' }}>Welcome, {username}!</h1>
+        {signedUp ? (<div><h1 style={{ textAlign: 'center' }}>Welcome, {username}!</h1><a className='btn btn-primary' href='https://app.alok760.in/admin/dashboard'>Go to dashboard</a></div>
+          
         ) : (
           <div>
             <h2 style={{ textAlign: 'center', marginBottom: '30px' }}>Sign Up</h2>
