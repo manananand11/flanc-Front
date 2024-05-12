@@ -11,7 +11,7 @@ const SignupPage = () => {
   const handleSignup = () => {
     // Here you can implement your signup logic, e.g., send a request to your backend API
     // For simplicity, let's just check if all fields are filled and passwords match
-    axios.post('http://alok760.in:3001/auth/signup', {
+    axios.post('https://api.alok760.in/auth/signup', {
       username, password, name, "type": "freelancer", "age": "14",
     }).then((res) =>{
       if(res.data.token){
